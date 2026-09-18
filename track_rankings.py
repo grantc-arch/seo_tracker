@@ -17,7 +17,7 @@ import sys
 from datetime import datetime, timezone
 import requests
 
-TARGET_DOMAIN = "oldschoolsa.com"
+TARGET_DOMAIN = "oldschool.co.za"
 KEYWORDS_FILE = "keywords.txt"
 OUTPUT_FILE = "data/rankings.csv"
 SEARCH_LOCATION = "South Africa"
