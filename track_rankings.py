@@ -42,7 +42,7 @@ def find_domain_rank(results: dict, domain: str) -> tuple[int | None, str | None
 def check_keyword(keyword: str, api_key: str) -> dict:
     params = {
         "engine": "google",
-        "q": keyword,
+"q": f'"{keyword}"',
         "location": SEARCH_LOCATION,
         "google_domain": "google.co.za",
         "gl": "za",
